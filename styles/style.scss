@@ -1,0 +1,29 @@
+body {
+  padding: 10px;
+}
+.photosets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.photoset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  list-style: none;
+  margin: 30px;
+  padding: 30px;
+  width: 350px;
+  height: 300px;
+  font-size: 25px;
+}
